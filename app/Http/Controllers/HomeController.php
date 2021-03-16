@@ -9,7 +9,8 @@ class HomeController extends Controller
 {
     public function index(){
         $data = [
-            'benvenuto' => 'Benvenuti nella Home'
+            'benvenuto' => 'Benvenuti nella Home',
+            'testo' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestias odio autem harum blanditiis, veniam illo, quod voluptas eaque, nobis vel sapiente rem beatae exercitationem quisquam omnis ipsam temporibus ullam!'
         ];
         return view('home', $data);
     }
