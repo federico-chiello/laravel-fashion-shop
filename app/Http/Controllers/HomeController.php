@@ -14,6 +14,11 @@ class HomeController extends Controller
     }
 
     public function contacts(){
-        return view('contacts');
+        $data = [
+            'citta' => 'Palermo',
+            'indirizzo' => 'via Alcide De Gasperi 80',
+            'telefono' => '079416546'
+        ];
+        return view('contacts', $data);
     }
 }
