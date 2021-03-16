@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//HOME
 Route::get('/', 'HomeController@index')->name('home');
+
+//CONTATTI
+Route::get('/', 'HomeController@contacts')->name('pagina_contatti');
