@@ -10,7 +10,7 @@
                     <a class="nav-link" href="{{ route('home') }}">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Prodotti</a>
+                    <a class="nav-link" href="{{ route('pagina_prodotti') }}">Prodotti</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="{{ route('pagina_contatti') }}">Contatti</a>
