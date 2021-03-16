@@ -13,6 +13,10 @@ class HomeController extends Controller
         return view('home', $data);
     }
 
+    public function products(){
+        return view('products');
+    }
+
     public function contacts(){
         $data = [
             'citta' => 'Palermo',

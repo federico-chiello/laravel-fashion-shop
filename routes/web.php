@@ -18,3 +18,6 @@ Route::get('/', 'HomeController@index')->name('home');
 
 //CONTATTI
 Route::get('/contatti', 'HomeController@contacts')->name('pagina_contatti');
+
+//PRODOTTI
+Route::get('/prodotti', 'HomeController@products')->name('pagina_prodotti');
