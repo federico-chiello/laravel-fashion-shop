@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title','contatti')
+@section('title','pagina contatti')
 
 @section('content')
  <h1>Contatti</h1>
